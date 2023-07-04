@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Deskripsi" />
+    <TextView
+        android:id="@+id/Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kategori"/>
+
+
+    <TextView
+        android:id="@+id/Https"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="https" />
+    <TextView
+        android:id="@+id/auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="auth"/>
+
+    <TextView
+        android:id="@+id/Api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="API" />
+    <TextView
+        android:id="@+id/Cors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cors"/>
+
+    <TextView
+        android:id="@+id/Link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Link"/>
+
+</LinearLayout>
